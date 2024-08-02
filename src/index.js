@@ -2,18 +2,6 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App-V2';
-import StarRating from './startRating';
-
-function Test() {
-  const [movieRating, setMovieRating] = useState(0);
-
-  return (
-    <div>
-      <StarRating onSetMovieRating={setMovieRating} />
-      <p>This movie was rated {movieRating} Stars</p>
-    </div>
-  );
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

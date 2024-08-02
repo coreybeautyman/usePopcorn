@@ -1,4 +1,4 @@
-import { setSelectionRange } from '@testing-library/user-event/dist/utils';
+// import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 import { useEffect, useRef, useState } from 'react';
 import StarRating from './startRating';
 import { useMovies } from './useMovies';
